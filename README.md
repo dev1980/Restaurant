@@ -8,7 +8,7 @@ JavaScript App
 
 ## Link to Project
 
-[OdinProject](https://www.theodinproject.com/courses/javascript/lessons/tic-tac-toe-javascript)
+[OdinProject](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
 ![restaurant]()
 
