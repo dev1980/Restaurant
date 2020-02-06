@@ -10,7 +10,7 @@ homePageContent();
 const tabs = document.querySelectorAll('.tab');
 
 tabs.forEach(tab => {
-  tab.addEventListener('click', e => {
+  tab.addEventListener('click', none => {
     const tabName = tab.className.replace('tab ', '');
     const main = document.querySelector('main');
 
