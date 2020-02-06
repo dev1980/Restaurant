@@ -25,7 +25,10 @@ li {
     max-width: 600px;
     margin: 0 auto;
     border: 1px solid orange;
-    padding: 12px;
+    background-color: rgba(255, 77, 0, 0.822);
+    color: rgba(255,255,255,1);
+    border-radius: 12px;
+    padding: 18px;
     
 }
 #main-content p{
@@ -33,4 +36,14 @@ li {
 }
 #main-content h3{
 text-align: center;
+}
+.row {
+    border: 1px solid orange;
+    background-color: rgba(255, 77, 0, 0.822);
+    color: rgba(255,255,255,1);
+    border-radius: 12px;
+    padding: 18px;
+    font-size: 22px;
+    width: 600px;
+    margin: 0 auto;
 }

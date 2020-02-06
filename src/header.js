@@ -4,7 +4,7 @@ const homePage = () => {
 
     content.innerHTML =
     ` <header class="header">
-        <h2>WelCome to Tea Time</h2>
+        <h2>Welcome to tea time</h2>
         <ul>
         <li class="tab home"><a href="#">Home</a></li>
         <li class="tab about"><a href="#">About</a></li>

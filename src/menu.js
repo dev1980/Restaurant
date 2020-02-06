@@ -1,18 +1,14 @@
+import drinkMenu from './menu.png';
 const menu = () => {
 
     let content = document.querySelector('main');
 
-    content.innerHTML = 
-    `
-            <div class="row">
-                <h1>AContact Us</h1>
-                <p>Home Delivery : Call-804-9870-768</p>
-                <p>Table Booking: Call-804-9870-768</p>
-                <p>Email: jone@gmail.com</p> 
-            </div>
-    `;
-
-
-}
+    content.innerHTML = '';
+  const img = document.createElement('img');
+  img.classList.add('img-fix');
+  img.setAttribute('src', drinkMenu);
+  img.setAttribute('alt', 'Drinks menu');
+  content.appendChild(img);
+};
 
 export {menu};
