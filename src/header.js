@@ -1,5 +1,5 @@
 const homePage = () => {
-  let content = document.querySelector('#content');
+  const content = document.querySelector('#content');
   content.innerHTML = `<header class="header">
     <h2>Welcome to tea time</h2>
     <ul>
