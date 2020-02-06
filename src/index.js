@@ -1,6 +1,9 @@
 import './style.css';
 import {homePage, homePageContent} from './header'; 
 import {about} from './about';
+import {menu} from './menu';
+import {contact} from './contact';
+
 
 homePage();
 homePageContent();
@@ -34,7 +37,7 @@ tabs.forEach(tab => {
             }
             case 'contact': {
                 main.id = "contact";
-                location();
+                contact();
                 break;
             }
         }
