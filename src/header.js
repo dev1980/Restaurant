@@ -6,10 +6,10 @@ const homePage = () => {
     ` <header class="header">
         <h2>WelCome to Tea Time</h2>
         <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="tab home"><a href="#">Home</a></li>
+        <li class="tab about"><a href="#">About</a></li>
+        <li class="tab menu"><a href="#">Menu</a></li>
+        <li class="tab contact"><a href="#">Contact</a></li>
         </ul>     
         </header>
         <main id="home">
