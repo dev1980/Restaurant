@@ -1,5 +1,5 @@
 const contact = () => {
-  let content = document.querySelector('main');
+  const content = document.querySelector('main');
   content.innerHTML = 
     `<div class="row">
     <h1>Contact Us</h1>
