@@ -28,5 +28,4 @@ const homePageContent = () => {
         </section>
     `;
 }
-
 export {homePage, homePageContent};
