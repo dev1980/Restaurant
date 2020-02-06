@@ -1,5 +1,5 @@
 import './style.css';
-import {homePage, homePageContent} from './header'; 
+import { homePage,homePageContent } from './header'; 
 import about from './about';
 import menu from './menu';
 import contact from './contact';
@@ -15,28 +15,29 @@ tabs.forEach(tab => {
     const main = document.querySelector('main');
 
     if (tabName === main.id) {
-      return;} 
-switch(tabName) {
-    case 'home': {
-        main.id = "home";
+      return;
+    } 
+    switch(tabName) {
+      case 'home': {
+        main.id = 'home';
         homePageContent();                
         break;
-    }
-    case 'about': {
-        main.id = "about";
+      }
+      case 'about': {
+        main.id = 'about';
         about();
         break;
-    }
-    case 'menu': {
-        main.id = "menu";
+      }
+      case 'menu': {
+        main.id = 'menu';
         menu();
         break;
-    }
-    case 'contact': {
-        main.id = "contact";
+      }
+      case 'contact': {
+        main.id = 'contact';
         contact();
         break;
-    }
+      }
     }
   });
 });
