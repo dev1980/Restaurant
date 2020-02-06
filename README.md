@@ -10,13 +10,15 @@ JavaScript App
 
 [OdinProject](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
-![restaurant]()
+![restaurant](https://user-images.githubusercontent.com/50328853/73986448-c0006f80-4965-11ea-8515-6df52c1836e8.png)
 
 ## Built With
 
 -   HTML5,
 -   CSS,
 -   Javascript
+-   Webpack
+
 
 ## Live Demo
 
