@@ -1,10 +1,7 @@
 const about = () => {
-
     let content = document.querySelector('main');
-
     content.innerHTML = 
-    `
-        <section id="_about" class="about-content">
+    `<section id="_about" class="about-content">
             <div class="row">
                 <h1>About Us</h1>
                 <p>
@@ -16,8 +13,6 @@ const about = () => {
             </div>
         </section>
     `;
-
-
 }
 
 export {about};
