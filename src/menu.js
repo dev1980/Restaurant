@@ -9,4 +9,4 @@ const menu = () => {
   content.appendChild(img);
 };
 
-export { menu };
+export default menu;

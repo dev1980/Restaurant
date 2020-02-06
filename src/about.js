@@ -12,5 +12,4 @@ const about = () => {
     </div>
     </section>`;
 };
-
 export default about;
