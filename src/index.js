@@ -36,6 +36,7 @@ tabs.forEach(tab => {
         contact();
         break;
       }
+      // no default
     }
   });
 });
