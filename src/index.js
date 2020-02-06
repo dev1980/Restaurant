@@ -10,12 +10,13 @@ homePageContent();
 const tabs = document.querySelectorAll('.tab');
 
 tabs.forEach(tab => {
-  tab.addEventListener('click', e => {
+  tab.addEventListener('click', () => {
     const tabName = tab.className.replace('tab ', '');
     const main = document.querySelector('main');
 
-    if (tabName === main.id){ 
-        return;} 
+    if (tabName === main.id) { 
+      return;
+    } 
     switch (tabName) {
       case 'home': {
         main.id = 'home';
