@@ -1,6 +1,6 @@
 const about = () => {
-let content = document.querySelector('main');
-content.innerHTML = 
+  let content = document.querySelector('main');
+  content.innerHTML = 
 `<section id="_about" class="about-content">
 <div class="row">
     <h1>About Us</h1>
@@ -15,4 +15,4 @@ content.innerHTML =
     `;
 };
 
-export { about };
+ export { about };
